@@ -1,0 +1,10 @@
+<label>
+    {{#if complete}}
+            <input type="checkbox" class="chk_complete" checked>
+            {{else}}
+            <input type="checkbox" class="chk_complete">
+    {{/if}}
+        </label>
+            <span class="todo_text">{{text}}</span>
+            <a href="javascript:;" class="remove pull-right"><span class="">X</span></a>
+            <input class="form-control edit_input" type="text" value="{{text}}">
